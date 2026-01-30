@@ -3,15 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
+		5043082BAE54EDCC201251A0 /* Pods-75DeepSpaceBreath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-75DeepSpaceBreath.release.xcconfig"; path = "Target Support Files/Pods-75DeepSpaceBreath/Pods-75DeepSpaceBreath.release.xcconfig"; sourceTree = "<group>"; };
 		746154EC2F2C9478009F9968 /* 75DeepSpaceBreath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 75DeepSpaceBreath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8451653C78969E7563E7BFD1 /* Pods-75DeepSpaceBreath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-75DeepSpaceBreath.debug.xcconfig"; path = "Target Support Files/Pods-75DeepSpaceBreath/Pods-75DeepSpaceBreath.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB8B7BC5EB1171387DD5516 /* Pods_75DeepSpaceBreath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_75DeepSpaceBreath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746154FE2F2C9479009F9968 /* Exceptions for "75DeepSpaceBreath" folder in "75DeepSpaceBreath" target */ = {
+		746155262F2C94B0009F9968 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +24,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		746154EE2F2C9478009F9968 /* 75DeepSpaceBreath */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				746154FE2F2C9479009F9968 /* Exceptions for "75DeepSpaceBreath" folder in "75DeepSpaceBreath" target */,
-			);
-			path = 75DeepSpaceBreath;
-			sourceTree = "<group>";
-		};
+		7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (746155262F2C94B0009F9968 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 75DeepSpaceBreath; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,11 +38,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F3FFF26EEE94035D6FCADA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8451653C78969E7563E7BFD1 /* Pods-75DeepSpaceBreath.debug.xcconfig */,
+				5043082BAE54EDCC201251A0 /* Pods-75DeepSpaceBreath.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60FBA59F526EC7BC944F24F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB8B7BC5EB1171387DD5516 /* Pods_75DeepSpaceBreath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		746154E32F2C9478009F9968 = {
 			isa = PBXGroup;
 			children = (
-				746154EE2F2C9478009F9968 /* 75DeepSpaceBreath */,
+				7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */,
 				746154ED2F2C9478009F9968 /* Products */,
+				4F3FFF26EEE94035D6FCADA7 /* Pods */,
+				60FBA59F526EC7BC944F24F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +80,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746154FF2F2C9479009F9968 /* Build configuration list for PBXNativeTarget "75DeepSpaceBreath" */;
 			buildPhases = (
+				DB5543A2C18F956A16AABE71 /* [CP] Check Pods Manifest.lock */,
 				746154E82F2C9478009F9968 /* Sources */,
 				746154E92F2C9478009F9968 /* Frameworks */,
 				746154EA2F2C9478009F9968 /* Resources */,
@@ -74,11 +90,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				746154EE2F2C9478009F9968 /* 75DeepSpaceBreath */,
+				7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */,
 			);
 			name = 75DeepSpaceBreath;
-			packageProductDependencies = (
-			);
 			productName = 75DeepSpaceBreath;
 			productReference = 746154EC2F2C9478009F9968 /* 75DeepSpaceBreath.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +113,7 @@
 				};
 			};
 			buildConfigurationList = 746154E72F2C9478009F9968 /* Build configuration list for PBXProject "75DeepSpaceBreath" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +121,6 @@
 				Base,
 			);
 			mainGroup = 746154E32F2C9478009F9968;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 746154ED2F2C9478009F9968 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +140,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DB5543A2C18F956A16AABE71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-75DeepSpaceBreath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		746154E82F2C9478009F9968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +178,7 @@
 /* Begin XCBuildConfiguration section */
 		746155002F2C9479009F9968 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8451653C78969E7563E7BFD1 /* Pods-75DeepSpaceBreath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -150,8 +189,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,17 +200,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5DeepSpaceBreath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		746155012F2C9479009F9968 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5043082BAE54EDCC201251A0 /* Pods-75DeepSpaceBreath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -181,8 +226,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -191,12 +237,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5DeepSpaceBreath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

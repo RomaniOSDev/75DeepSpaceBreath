@@ -13,8 +13,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        NotificationManager.shared.requestAuthorization { _ in }
+        scheduleRemindersFromSettings()
         return true
+    }
+    
+    private func scheduleRemindersFromSettings() {
+        let defaults = UserDefaults.standard
+        guard defaults.bool(forKey: "DSB_remindersEnabled") else {
+            NotificationManager.shared.cancelAllReminders()
+            return
+        }
+        let morningH = defaults.object(forKey: "DSB_morningHour") as? Int ?? 8
+        let morningM = defaults.object(forKey: "DSB_morningMinute") as? Int ?? 0
+        let eveningH = defaults.object(forKey: "DSB_eveningHour") as? Int ?? 21
+        let eveningM = defaults.object(forKey: "DSB_eveningMinute") as? Int ?? 0
+        NotificationManager.shared.scheduleMorningReminder(hour: morningH, minute: morningM)
+        NotificationManager.shared.scheduleEveningReminder(hour: eveningH, minute: eveningM)
     }
 
     // MARK: UISceneSession Lifecycle
