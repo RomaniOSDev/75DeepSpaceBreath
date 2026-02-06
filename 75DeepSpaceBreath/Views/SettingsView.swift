@@ -95,7 +95,7 @@ struct SettingsView: View {
                         }
                     }
                     Button {
-                        openURL("https://example.com/privacy-policy")
+                        openURL("https://www.termsfeed.com/live/d312f0bd-cf4e-4db8-9995-bec3a49fcd06")
                     } label: {
                         HStack {
                             Text("Privacy")
@@ -106,7 +106,7 @@ struct SettingsView: View {
                         }
                     }
                     Button {
-                        openURL("https://example.com/terms-of-use")
+                        openURL("https://www.termsfeed.com/live/191ffaad-7669-41a0-9d29-38cdcca33d96")
                     } label: {
                         HStack {
                             Text("Terms")

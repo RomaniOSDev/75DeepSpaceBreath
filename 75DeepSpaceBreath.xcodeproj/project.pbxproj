@@ -3,29 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		7403AB222F364D74002FAF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7403AB172F364D74002FAF54 /* Assets.xcassets */; };
+		7403AB242F364D74002FAF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7403AB1C2F364D74002FAF54 /* LaunchScreen.storyboard */; };
+		7403AB252F364D74002FAF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7403AB1E2F364D74002FAF54 /* Main.storyboard */; };
+		7403AB262F364D74002FAF54 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFB2F364D74002FAF54 /* Achievement.swift */; };
+		7403AB272F364D74002FAF54 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFC2F364D74002FAF54 /* AppSettings.swift */; };
+		7403AB282F364D74002FAF54 /* BreathingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFD2F364D74002FAF54 /* BreathingProgram.swift */; };
+		7403AB292F364D74002FAF54 /* PulseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFE2F364D74002FAF54 /* PulseEntry.swift */; };
+		7403AB2A2F364D74002FAF54 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFF2F364D74002FAF54 /* Recommendation.swift */; };
+		7403AB2B2F364D74002FAF54 /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB002F364D74002FAF54 /* SessionRecord.swift */; };
+		7403AB2C2F364D74002FAF54 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB022F364D74002FAF54 /* NotificationManager.swift */; };
+		7403AB2D2F364D74002FAF54 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB042F364D74002FAF54 /* CheckLink.swift */; };
+		7403AB2E2F364D74002FAF54 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB052F364D74002FAF54 /* InternetViewController.swift */; };
+		7403AB2F2F364D74002FAF54 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB062F364D74002FAF54 /* LoaderViewController.swift */; };
+		7403AB302F364D74002FAF54 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB082F364D74002FAF54 /* AchievementsView.swift */; };
+		7403AB312F364D74002FAF54 /* ActivityCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */; };
+		7403AB322F364D74002FAF54 /* AfterWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */; };
+		7403AB332F364D74002FAF54 /* BreathingSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0B2F364D74002FAF54 /* BreathingSessionView.swift */; };
+		7403AB342F364D74002FAF54 /* GalaxyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0C2F364D74002FAF54 /* GalaxyProgressView.swift */; };
+		7403AB352F364D74002FAF54 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0D2F364D74002FAF54 /* OnboardingView.swift */; };
+		7403AB362F364D74002FAF54 /* ProgramDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0E2F364D74002FAF54 /* ProgramDetailView.swift */; };
+		7403AB372F364D74002FAF54 /* ProgramListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0F2F364D74002FAF54 /* ProgramListView.swift */; };
+		7403AB382F364D74002FAF54 /* PulseInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB102F364D74002FAF54 /* PulseInputView.swift */; };
+		7403AB392F364D74002FAF54 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB112F364D74002FAF54 /* SessionDetailView.swift */; };
+		7403AB3A2F364D74002FAF54 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB122F364D74002FAF54 /* SettingsView.swift */; };
+		7403AB3B2F364D74002FAF54 /* StarfieldBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB132F364D74002FAF54 /* StarfieldBackground.swift */; };
+		7403AB3C2F364D74002FAF54 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB142F364D74002FAF54 /* StatisticsView.swift */; };
+		7403AB3D2F364D74002FAF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB162F364D74002FAF54 /* AppDelegate.swift */; };
+		7403AB3E2F364D74002FAF54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB182F364D74002FAF54 /* ContentView.swift */; };
+		7403AB3F2F364D74002FAF54 /* DSBTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB192F364D74002FAF54 /* DSBTheme.swift */; };
+		7403AB402F364D74002FAF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB1F2F364D74002FAF54 /* SceneDelegate.swift */; };
+		7403AB412F364D74002FAF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB202F364D74002FAF54 /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5043082BAE54EDCC201251A0 /* Pods-75DeepSpaceBreath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-75DeepSpaceBreath.release.xcconfig"; path = "Target Support Files/Pods-75DeepSpaceBreath/Pods-75DeepSpaceBreath.release.xcconfig"; sourceTree = "<group>"; };
+		7403AAFB2F364D74002FAF54 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		7403AAFC2F364D74002FAF54 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		7403AAFD2F364D74002FAF54 /* BreathingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingProgram.swift; sourceTree = "<group>"; };
+		7403AAFE2F364D74002FAF54 /* PulseEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseEntry.swift; sourceTree = "<group>"; };
+		7403AAFF2F364D74002FAF54 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		7403AB002F364D74002FAF54 /* SessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
+		7403AB022F364D74002FAF54 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		7403AB042F364D74002FAF54 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7403AB052F364D74002FAF54 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7403AB062F364D74002FAF54 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7403AB082F364D74002FAF54 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCalendarView.swift; sourceTree = "<group>"; };
+		7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterWorkoutView.swift; sourceTree = "<group>"; };
+		7403AB0B2F364D74002FAF54 /* BreathingSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingSessionView.swift; sourceTree = "<group>"; };
+		7403AB0C2F364D74002FAF54 /* GalaxyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyProgressView.swift; sourceTree = "<group>"; };
+		7403AB0D2F364D74002FAF54 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7403AB0E2F364D74002FAF54 /* ProgramDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailView.swift; sourceTree = "<group>"; };
+		7403AB0F2F364D74002FAF54 /* ProgramListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramListView.swift; sourceTree = "<group>"; };
+		7403AB102F364D74002FAF54 /* PulseInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseInputView.swift; sourceTree = "<group>"; };
+		7403AB112F364D74002FAF54 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		7403AB122F364D74002FAF54 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7403AB132F364D74002FAF54 /* StarfieldBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfieldBackground.swift; sourceTree = "<group>"; };
+		7403AB142F364D74002FAF54 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		7403AB162F364D74002FAF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7403AB172F364D74002FAF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7403AB182F364D74002FAF54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7403AB192F364D74002FAF54 /* DSBTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBTheme.swift; sourceTree = "<group>"; };
+		7403AB1A2F364D74002FAF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7403AB1B2F364D74002FAF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7403AB1D2F364D74002FAF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7403AB1F2F364D74002FAF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7403AB202F364D74002FAF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		746154EC2F2C9478009F9968 /* 75DeepSpaceBreath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 75DeepSpaceBreath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8451653C78969E7563E7BFD1 /* Pods-75DeepSpaceBreath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-75DeepSpaceBreath.debug.xcconfig"; path = "Target Support Files/Pods-75DeepSpaceBreath/Pods-75DeepSpaceBreath.debug.xcconfig"; sourceTree = "<group>"; };
 		8DB8B7BC5EB1171387DD5516 /* Pods_75DeepSpaceBreath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_75DeepSpaceBreath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746155262F2C94B0009F9968 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 746154EB2F2C9478009F9968 /* 75DeepSpaceBreath */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (746155262F2C94B0009F9968 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 75DeepSpaceBreath; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		746154E92F2C9478009F9968 /* Frameworks */ = {
@@ -55,10 +107,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7403AB012F364D74002FAF54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7403AAFB2F364D74002FAF54 /* Achievement.swift */,
+				7403AAFC2F364D74002FAF54 /* AppSettings.swift */,
+				7403AAFD2F364D74002FAF54 /* BreathingProgram.swift */,
+				7403AAFE2F364D74002FAF54 /* PulseEntry.swift */,
+				7403AAFF2F364D74002FAF54 /* Recommendation.swift */,
+				7403AB002F364D74002FAF54 /* SessionRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7403AB032F364D74002FAF54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7403AB022F364D74002FAF54 /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7403AB072F364D74002FAF54 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7403AB042F364D74002FAF54 /* CheckLink.swift */,
+				7403AB052F364D74002FAF54 /* InternetViewController.swift */,
+				7403AB062F364D74002FAF54 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7403AB152F364D74002FAF54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7403AB072F364D74002FAF54 /* LoadingView */,
+				7403AB082F364D74002FAF54 /* AchievementsView.swift */,
+				7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */,
+				7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */,
+				7403AB0B2F364D74002FAF54 /* BreathingSessionView.swift */,
+				7403AB0C2F364D74002FAF54 /* GalaxyProgressView.swift */,
+				7403AB0D2F364D74002FAF54 /* OnboardingView.swift */,
+				7403AB0E2F364D74002FAF54 /* ProgramDetailView.swift */,
+				7403AB0F2F364D74002FAF54 /* ProgramListView.swift */,
+				7403AB102F364D74002FAF54 /* PulseInputView.swift */,
+				7403AB112F364D74002FAF54 /* SessionDetailView.swift */,
+				7403AB122F364D74002FAF54 /* SettingsView.swift */,
+				7403AB132F364D74002FAF54 /* StarfieldBackground.swift */,
+				7403AB142F364D74002FAF54 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7403AB212F364D74002FAF54 /* 75DeepSpaceBreath */ = {
+			isa = PBXGroup;
+			children = (
+				7403AB012F364D74002FAF54 /* Models */,
+				7403AB032F364D74002FAF54 /* Services */,
+				7403AB152F364D74002FAF54 /* Views */,
+				7403AB162F364D74002FAF54 /* AppDelegate.swift */,
+				7403AB172F364D74002FAF54 /* Assets.xcassets */,
+				7403AB182F364D74002FAF54 /* ContentView.swift */,
+				7403AB192F364D74002FAF54 /* DSBTheme.swift */,
+				7403AB1A2F364D74002FAF54 /* Info.plist */,
+				7403AB1C2F364D74002FAF54 /* LaunchScreen.storyboard */,
+				7403AB1E2F364D74002FAF54 /* Main.storyboard */,
+				7403AB1F2F364D74002FAF54 /* SceneDelegate.swift */,
+				7403AB202F364D74002FAF54 /* ViewController.swift */,
+			);
+			path = 75DeepSpaceBreath;
+			sourceTree = "<group>";
+		};
 		746154E32F2C9478009F9968 = {
 			isa = PBXGroup;
 			children = (
-				7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */,
+				7403AB212F364D74002FAF54 /* 75DeepSpaceBreath */,
 				746154ED2F2C9478009F9968 /* Products */,
 				4F3FFF26EEE94035D6FCADA7 /* Pods */,
 				60FBA59F526EC7BC944F24F2 /* Frameworks */,
@@ -88,9 +211,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7461551E2F2C94B0009F9968 /* 75DeepSpaceBreath */,
 			);
 			name = 75DeepSpaceBreath;
 			productName = 75DeepSpaceBreath;
@@ -135,6 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403AB222F364D74002FAF54 /* Assets.xcassets in Resources */,
+				7403AB242F364D74002FAF54 /* LaunchScreen.storyboard in Resources */,
+				7403AB252F364D74002FAF54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +293,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403AB262F364D74002FAF54 /* Achievement.swift in Sources */,
+				7403AB272F364D74002FAF54 /* AppSettings.swift in Sources */,
+				7403AB282F364D74002FAF54 /* BreathingProgram.swift in Sources */,
+				7403AB292F364D74002FAF54 /* PulseEntry.swift in Sources */,
+				7403AB2A2F364D74002FAF54 /* Recommendation.swift in Sources */,
+				7403AB2B2F364D74002FAF54 /* SessionRecord.swift in Sources */,
+				7403AB2C2F364D74002FAF54 /* NotificationManager.swift in Sources */,
+				7403AB2D2F364D74002FAF54 /* CheckLink.swift in Sources */,
+				7403AB2E2F364D74002FAF54 /* InternetViewController.swift in Sources */,
+				7403AB2F2F364D74002FAF54 /* LoaderViewController.swift in Sources */,
+				7403AB302F364D74002FAF54 /* AchievementsView.swift in Sources */,
+				7403AB312F364D74002FAF54 /* ActivityCalendarView.swift in Sources */,
+				7403AB322F364D74002FAF54 /* AfterWorkoutView.swift in Sources */,
+				7403AB332F364D74002FAF54 /* BreathingSessionView.swift in Sources */,
+				7403AB342F364D74002FAF54 /* GalaxyProgressView.swift in Sources */,
+				7403AB352F364D74002FAF54 /* OnboardingView.swift in Sources */,
+				7403AB362F364D74002FAF54 /* ProgramDetailView.swift in Sources */,
+				7403AB372F364D74002FAF54 /* ProgramListView.swift in Sources */,
+				7403AB382F364D74002FAF54 /* PulseInputView.swift in Sources */,
+				7403AB392F364D74002FAF54 /* SessionDetailView.swift in Sources */,
+				7403AB3A2F364D74002FAF54 /* SettingsView.swift in Sources */,
+				7403AB3B2F364D74002FAF54 /* StarfieldBackground.swift in Sources */,
+				7403AB3C2F364D74002FAF54 /* StatisticsView.swift in Sources */,
+				7403AB3D2F364D74002FAF54 /* AppDelegate.swift in Sources */,
+				7403AB3E2F364D74002FAF54 /* ContentView.swift in Sources */,
+				7403AB3F2F364D74002FAF54 /* DSBTheme.swift in Sources */,
+				7403AB402F364D74002FAF54 /* SceneDelegate.swift in Sources */,
+				7403AB412F364D74002FAF54 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7403AB1C2F364D74002FAF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7403AB1B2F364D74002FAF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7403AB1E2F364D74002FAF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7403AB1D2F364D74002FAF54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		746155002F2C9479009F9968 /* Debug */ = {
@@ -186,18 +356,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 75DeepSpaceBreath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WilneSpace Breath";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5DeepSpaceBreath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lin.w9ln2sp5c3br93th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,18 +395,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 75DeepSpaceBreath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WilneSpace Breath";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5DeepSpaceBreath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lin.w9ln2sp5c3br93th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
