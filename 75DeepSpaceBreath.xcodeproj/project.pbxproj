@@ -17,9 +17,6 @@
 		7403AB2A2F364D74002FAF54 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AAFF2F364D74002FAF54 /* Recommendation.swift */; };
 		7403AB2B2F364D74002FAF54 /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB002F364D74002FAF54 /* SessionRecord.swift */; };
 		7403AB2C2F364D74002FAF54 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB022F364D74002FAF54 /* NotificationManager.swift */; };
-		7403AB2D2F364D74002FAF54 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB042F364D74002FAF54 /* CheckLink.swift */; };
-		7403AB2E2F364D74002FAF54 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB052F364D74002FAF54 /* InternetViewController.swift */; };
-		7403AB2F2F364D74002FAF54 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB062F364D74002FAF54 /* LoaderViewController.swift */; };
 		7403AB302F364D74002FAF54 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB082F364D74002FAF54 /* AchievementsView.swift */; };
 		7403AB312F364D74002FAF54 /* ActivityCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */; };
 		7403AB322F364D74002FAF54 /* AfterWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */; };
@@ -49,9 +46,6 @@
 		7403AAFF2F364D74002FAF54 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
 		7403AB002F364D74002FAF54 /* SessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
 		7403AB022F364D74002FAF54 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		7403AB042F364D74002FAF54 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		7403AB052F364D74002FAF54 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		7403AB062F364D74002FAF54 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		7403AB082F364D74002FAF54 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCalendarView.swift; sourceTree = "<group>"; };
 		7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterWorkoutView.swift; sourceTree = "<group>"; };
@@ -128,20 +122,9 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		7403AB072F364D74002FAF54 /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				7403AB042F364D74002FAF54 /* CheckLink.swift */,
-				7403AB052F364D74002FAF54 /* InternetViewController.swift */,
-				7403AB062F364D74002FAF54 /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
-			sourceTree = "<group>";
-		};
 		7403AB152F364D74002FAF54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7403AB072F364D74002FAF54 /* LoadingView */,
 				7403AB082F364D74002FAF54 /* AchievementsView.swift */,
 				7403AB092F364D74002FAF54 /* ActivityCalendarView.swift */,
 				7403AB0A2F364D74002FAF54 /* AfterWorkoutView.swift */,
@@ -300,9 +283,6 @@
 				7403AB2A2F364D74002FAF54 /* Recommendation.swift in Sources */,
 				7403AB2B2F364D74002FAF54 /* SessionRecord.swift in Sources */,
 				7403AB2C2F364D74002FAF54 /* NotificationManager.swift in Sources */,
-				7403AB2D2F364D74002FAF54 /* CheckLink.swift in Sources */,
-				7403AB2E2F364D74002FAF54 /* InternetViewController.swift in Sources */,
-				7403AB2F2F364D74002FAF54 /* LoaderViewController.swift in Sources */,
 				7403AB302F364D74002FAF54 /* AchievementsView.swift in Sources */,
 				7403AB312F364D74002FAF54 /* ActivityCalendarView.swift in Sources */,
 				7403AB322F364D74002FAF54 /* AfterWorkoutView.swift in Sources */,
@@ -353,10 +333,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 75DeepSpaceBreath/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "WilneSpace Breath";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wemtriv Space Breath";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,10 +372,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 75DeepSpaceBreath/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "WilneSpace Breath";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wemtriv Space Breath";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
