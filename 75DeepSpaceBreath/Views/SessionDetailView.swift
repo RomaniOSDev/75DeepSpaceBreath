@@ -2,7 +2,6 @@
 //  SessionDetailView.swift
 //  75DeepSpaceBreath
 //
-//  Tap a star on the galaxy → date, program, duration, pulse before/after, reduction %.
 //
 
 import SwiftUI
